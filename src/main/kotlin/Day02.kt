@@ -8,10 +8,6 @@ fun main() {
     println(countSafeRecords(linesOfNumbers))
 }
 
-private fun findDistance(a: Int, b: Int): Int {
-    return abs(a - b)
-}
-
 private fun countSafeRecords(linesOfNumbers: List<List<Int>>): Int {
     var safeRecords = 0
     linesOfNumbers.forEach { line ->
@@ -33,7 +29,7 @@ fun isMonotonic(list: List<Int>): Boolean {
 
 private fun isSafe(line: List<Int>): Boolean {
     return isMonotonic(line) && line.zipWithNext().all { (a, b) ->
-        val distance = findDistance(a, b)
+        val distance = abs(a - b)
         distance in 1..3
     }
 }
