@@ -3,7 +3,7 @@ package org.example
 import org.example.util.readTwoColumnsOfNumbers
 
 fun main() {
-    val lists = readTwoColumnsOfNumbers("day1")
+    val lists = readTwoColumnsOfNumbers("day01")
     println(findDistancesSum(lists))
     println(calculateSimilarityScore(lists.first.sorted(), lists.second.sorted()))
 }
