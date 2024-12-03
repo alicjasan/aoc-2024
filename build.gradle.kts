@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "2.0.21"
 }
 
-group = "org.example"
+group = "com.adventofcode"
 version = "1.0-SNAPSHOT"
 
 repositories {

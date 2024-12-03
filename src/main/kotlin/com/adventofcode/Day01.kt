@@ -1,6 +1,6 @@
-package org.example
+package com.adventofcode
 
-import org.example.util.readTwoColumnsOfNumbers
+import com.adventofcode.util.readTwoColumnsOfNumbers
 
 fun main() {
     val lists = readTwoColumnsOfNumbers("day01")

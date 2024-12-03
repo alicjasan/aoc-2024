@@ -1,4 +1,4 @@
-package org.example.util
+package com.adventofcode.util
 
 import java.io.File
 
@@ -34,3 +34,5 @@ fun readLinesOfNumbers(fileName: String): List<List<Int>> {
 
     return list
 }
+
+fun readText(fileName: String): String =  ClassLoader.getSystemResource(fileName).readText()

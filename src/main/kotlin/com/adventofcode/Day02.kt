@@ -1,6 +1,6 @@
-package org.example
+package com.adventofcode
 
-import org.example.util.readLinesOfNumbers
+import com.adventofcode.util.readLinesOfNumbers
 import kotlin.math.abs
 
 fun main() {
