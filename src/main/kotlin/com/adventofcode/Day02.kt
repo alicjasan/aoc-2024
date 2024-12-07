@@ -4,7 +4,7 @@ import com.adventofcode.util.readLinesOfNumbers
 import kotlin.math.abs
 
 fun main() {
-    val linesOfNumbers = readLinesOfNumbers("day02")
+    val linesOfNumbers = readLinesOfNumbers("day02", "\\s+")
     println(countSafeRecords(linesOfNumbers))
 }
 

@@ -3,7 +3,7 @@ package com.adventofcode
 import com.adventofcode.util.readTwoColumnsOfNumbers
 
 fun main() {
-    val lists = readTwoColumnsOfNumbers("day01")
+    val lists = readTwoColumnsOfNumbers("day01", "\\s+")
     println(findDistancesSum(lists))
     println(calculateSimilarityScore(lists.first.sorted(), lists.second.sorted()))
 }
