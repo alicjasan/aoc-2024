@@ -35,4 +35,7 @@ fun readLinesOfNumbers(fileName: String): List<List<Int>> {
     return list
 }
 
-fun readText(fileName: String): String =  ClassLoader.getSystemResource(fileName).readText()
+fun readText(fileName: String): String = ClassLoader.getSystemResource(fileName).readText()
+
+fun readTextLines(fileName: String): Array<CharArray> =
+    File(ClassLoader.getSystemResource(fileName).toURI()).readLines().map { it.toCharArray() }.toTypedArray()

@@ -15,6 +15,7 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+*/resources
 
 ### Kotlin ###
 .kotlin
@@ -111,3 +112,4 @@ kotlin-ide/
 /.idea/codeStyles/Project.xml
 /.idea/vcs.xml
 /.idea/codeStyles/codeStyleConfig.xml
+/src/main/resources/
